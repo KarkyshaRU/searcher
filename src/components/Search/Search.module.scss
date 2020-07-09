@@ -1,0 +1,51 @@
+
+
+.logo {
+  text-align: center;
+  background-color: #574b4b;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 36px;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.search {
+  width: 26% !important;
+  display: flex;
+  justify-content: space-around;
+  width: max-content;
+  margin: 4vh auto;
+}
+
+.search > input {
+  outline: none !important;
+  width: 70%;
+  border: 1px solid #574b4b;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.search > input:hover {
+  border: 1px solid #574b4b;
+}
+
+.button {
+  outline: none !important;
+  font-weight: bold;
+
+  border-radius: 20px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  color: #574b4b;
+  border: 1px solid #574b4b;
+  background-color: transparent;
+
+  transition: 0.5s all linear;
+}
+
+.button:hover {
+  color: white;
+  background-color: #574b4b;
+}

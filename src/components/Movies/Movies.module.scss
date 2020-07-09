@@ -1,0 +1,36 @@
+.content {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  margin: 0vh auto;
+}
+
+.movie {
+  margin-bottom: 3vh;
+  .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .ilustration {
+    img {
+      border-radius: 20px;
+      display: block;
+      width: 100%;
+      margin: 1vh auto;
+    }
+  }
+
+  .date {
+    text-align: center;
+  }
+}
+
+.empty {
+  margin-top: 15vh;
+  text-align: center;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
